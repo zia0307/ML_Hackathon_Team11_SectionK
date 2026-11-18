@@ -1,0 +1,13 @@
+[
+  "distance_m",
+  "distance_ratio",
+  "segment_length_m",
+  "projection_fraction",
+  "heading_difference_rad",
+  "heading_cos",
+  "heading_sin",
+  "gps_speed_mps",
+  "dist_rank",
+  "dist_minus_min_m",
+  "dist_share"
+]

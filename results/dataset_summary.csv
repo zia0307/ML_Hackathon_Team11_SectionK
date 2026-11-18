@@ -1,0 +1,3 @@
+partition,trips,gps_observations_mean,gps_observations_median,nodes_mean,arcs_mean,route_arcs_mean,missing_values,timestamp_gaps
+student_test,10,1916.0,1420.0,9068.9,18504.1,347.7,0,264
+train,80,2605.2125,1529.0,24168.5625,48461.3,391.7,0,7273

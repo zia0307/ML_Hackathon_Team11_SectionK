@@ -1,0 +1,41 @@
+{
+  "selected_model": "RandomForest",
+  "objective": "observation-level Top-1 (GroupKFold by trip)",
+  "best_params": {
+    "model__max_depth": 18,
+    "model__max_features": 0.7,
+    "model__min_samples_leaf": 7,
+    "model__n_estimators": 193
+  },
+  "best_cv_observation_top1": 0.8400315211711892,
+  "bayesian_trials": 2,
+  "optimisation_seconds": 93.26349650000338,
+  "student_test_comparison": [
+    {
+      "version": "untuned",
+      "candidate_accuracy": 0.9779575504523312,
+      "candidate_precision": 0.9147834463934492,
+      "candidate_recall": 0.8855644064503594,
+      "candidate_macro_f1": 0.9437757174747583,
+      "candidate_log_loss": 0.058915502165080985,
+      "observation_top1_accuracy": 0.8720772442588727,
+      "observation_top1_hits_only": 0.8731253592517113,
+      "candidate_miss_rate": 0.0012004175365344372,
+      "inference_seconds": 0.4750689000065904,
+      "inference_ms_per_observation": 0.024794827766523506
+    },
+    {
+      "version": "bayesian_tuned",
+      "candidate_accuracy": 0.978205462769659,
+      "candidate_precision": 0.9126642771804062,
+      "candidate_recall": 0.8904993199922285,
+      "candidate_macro_f1": 0.9445967931743147,
+      "candidate_log_loss": 0.05573160012317883,
+      "observation_top1_accuracy": 0.8720772442588727,
+      "observation_top1_hits_only": 0.8731253592517113,
+      "candidate_miss_rate": 0.0012004175365344372,
+      "inference_seconds": 0.5148158999945736,
+      "inference_ms_per_observation": 0.026869305845228265
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "params": {
+    "hop_penalty": 2.0,
+    "jump_penalty": 16.0,
+    "emission_power": 0.5,
+    "max_hops": 3,
+    "gap_reset_s": 30.0
+  },
+  "tuned_on": "student",
+  "tuning_trips": 10,
+  "objective": "pointwise Top-1 (ties: fewer route breaks)",
+  "grid": {
+    "hop_penalty": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "jump_penalty": [
+      4.0,
+      8.0,
+      16.0
+    ],
+    "emission_power": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "max_hops": [
+      2,
+      3
+    ]
+  },
+  "optimisation_seconds": 10.497674400001415,
+  "random_state": 42,
+  "top_k": 15
+}

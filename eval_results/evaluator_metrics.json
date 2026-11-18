@@ -1,0 +1,25 @@
+{
+  "candidate_accuracy": 0.9795669411405916,
+  "candidate_precision": 0.8865428893352275,
+  "candidate_recall": 0.8297189491540966,
+  "candidate_macro_f1": 0.9230932468076503,
+  "candidate_log_loss": 0.05099550020241768,
+  "observation_top1_accuracy": 0.8538172206973671,
+  "observation_top1_hits_only": 0.854164547950778,
+  "candidate_miss_rate": 0.00040662803700319827,
+  "inference_seconds": 4.08428830000048,
+  "inference_ms_per_observation": 0.20759826674801668,
+  "confusion_matrix_[[tn,fp],[fn,tp]]": [
+    [
+      270983,
+      2316
+    ],
+    [
+      3714,
+      18097
+    ]
+  ],
+  "trips": 10,
+  "observations": 19674,
+  "candidate_rows": 295110
+}
